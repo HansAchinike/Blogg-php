@@ -19,6 +19,9 @@
 			<p>
 				Not yet a member? <a href="register.php">Sign up</a>
 			</p>
+			<p>
+				Forgot your password? <a href="register.php">Forgot password</a>
+			</p>
 		</form>
 	</div>
 </div>

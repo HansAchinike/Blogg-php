@@ -74,7 +74,9 @@
 			$sql = "SELECT * FROM users WHERE username='$username' and password='$password' LIMIT 1";
 
 			$result = mysqli_query($conn, $sql);
-			if (mysqli_num_rows($result) > 0) {
+			$result_run = mysqli_num_rows($result);
+			print $result_run;
+			if ($result_run == 1) {
 				// get id of created user
 				$reg_user_id = mysqli_fetch_assoc($result)['id']; 
 
@@ -93,7 +95,7 @@
 					header('location: index.php');				
 					exit(0);
 				}
-			} else {
+			}elseif ($result_run== 0){
 				array_push($errors, 'Wrong credentials');
 			}
 		}
