@@ -14,6 +14,7 @@
 				<span>~ Hans Zimmer</span>
 			</p>
 			<a href="register.php" class="btn">Join us!</a>
+			<a href="forgetpassword.php" class="btn">Forgot Password</a>
 		</div>
 
 		<div class="login_div">
