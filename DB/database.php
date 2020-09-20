@@ -3,7 +3,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "4321";
 
 
 // Create connection
