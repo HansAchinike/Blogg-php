@@ -2,7 +2,7 @@
 <?php 
 	session_start();
 	// connect to database
-	$conn = mysqli_connect("localhost", "root", "", "codewithawaDB");
+	$conn = mysqli_connect("localhost", "root", 4321"", "codewithawaDB");
 
 	if (!$conn) {
 		die("Error connecting to database: " . mysqli_connect_error());
